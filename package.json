@@ -6,6 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tariky/bulk-pdf-barcode-reader"
+  },
+  "bugs": {
+    "url": "https://github.com/tariky/bulk-pdf-barcode-reader/issues"
+  },
+  "homepage": "https://github.com/tariky/bulk-pdf-barcode-reader",
   "keywords": ["barcode", "reader", "pdf"],
   "author": "Tarik Caplja",
   "license": "MIT",
