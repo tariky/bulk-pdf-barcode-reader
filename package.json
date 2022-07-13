@@ -1,0 +1,21 @@
+{
+  "name": "bulk-pdf-barcode-reader",
+  "version": "1.0.0",
+  "description": "Extract barcodes from pdf documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["barcode", "reader", "pdf"],
+  "author": "Tarik Caplja",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "fs-extra": "^10.1.0",
+    "jpeg-js": "^0.4.4",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "pdfjs-dist": "^2.14.305",
+    "zbar.wasm": "^2.1.1"
+  }
+}
