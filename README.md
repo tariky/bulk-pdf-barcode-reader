@@ -38,9 +38,11 @@ const bpbr = require("bulk-pdf-barcode-reader");
 async function main() {
     // First input is .pdf file location
     // Second input is viewport scale - bigger the scale = better reading resolution
-    const result = bpbr("./file.pdf", 1.0);
+    const result = await bpbr("./file.pdf", 1.0);
     console.log(result);
 }
+
+main();
 ```
 
 Licence: MIT
